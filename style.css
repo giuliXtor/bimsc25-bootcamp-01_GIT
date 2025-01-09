@@ -1,81 +1,28 @@
-:root {
-    --navBarHeight: 75px;
-    --sideBarHeight: 200px
-}
-
-#navBar {
-    background-color: rgb(209, 117, 41);
-    height: var(--navBarHeight);
-    padding: 20px
-}
-
-#sidebar {
-    background-color: rgb(143, 73, 131);
-    width: var(--sideBarHeight);
-    padding: 10px
-}
-
-#main {
-    background-color: rgb(215, 225, 220);
-    width: calc(100vw - var(--sideBarHeight));
-    padding: 10px
-}
-
-.flexRow {
-    display: flex;
-}
-
-#about {
-    margin-right: 10px;
-}
-
-.menuItem {
-    width: 200px;
-    height: 250px;
-    margin: 4px;
-}
-
-.flexColumn {
-    display: flex;
-    flex-direction: column;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-    background-color:azure;
+div {
     border: 1px solid black;
-    margin: 4px;
+    background-color: rgb(109, 182, 206);
+    padding: 10px;
+    margin: 10px
 }
 
-.spaceBetween {
-    justify-content: space-between;
+#redDiv {
+    color: red;
+    margin-top: 40px;
+    height: 200px;
+    width: 50px;
 }
 
-.spaceAround {
-    justify-content: space-around;
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-.justifyCenter {
-    justify-content: center;
-}
-
-.alignCenter {
-    align-items: center;
-}
-
-.flexStart {
-    justify-content: flex-start;
-}
-
-.flexEnd {
-    justify-content: flex-end;
+.heading {
+    font-family: cursive; 
+    font-weight: 500; 
+    color: green;
 }
 
 body {
     margin: 0px;
 }
+
+.flexClass {
+    display: flex;
+}
+/* comment one line  */

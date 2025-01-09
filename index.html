@@ -3,45 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+    <title>bootcamp 01</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="navBar" class="flexRow spaceBetween alignCenter">
-        <div class="flexRow">
-            <i class="mdi mdi-food-fork-drink"></i>
-            <h3 style="margin:0">Sophie's Cafe</h3>
+    <div>
+        this is a div
+    </div>
+    
+    <div class="flexClass">
+        <div id="redDiv">
+            this is another div
         </div>
+        <div id="redDiv">
+            this is another div
+        </div>
+    </div>
+    
 
-        <div class="flexRow">
-            <span id="about">About</span>
-            <span id="content">Contact</span>
-        </div>
+    <!-- These are my headings -->
+    <!-- comment a single line with (ctrl + /) -->
+
+    <!-- comment multiple lines
+    with (ctrl + kc), (ctrl + ku) -->
+    <h1 class="heading">
+        this is heading 1
+    </h1>
+    <h2 class="heading">
+        this is heading 2
+    </h2>
+    <h6 class="heading" style="color:white; background-color: blueviolet;">
+        this is heading 6
+    </h6>
+    
+    <h2>An Unordered HTML List</h2>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>  
+
+    <h2>An Ordered HTML List</h2>
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol> 
+
+    <p>paragraph <b>this is bold text</b></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <b>this is bold text</b>
+
+    <img src="puppy.jpg" alt="puppy" width="500" height="333">
+    <br>
+    <div style="width: 50%">
+        <img src="../assets/sloth.jpg" width="100%" height="100%">
     </div>
-    <div class="flexRow" style="height: calc(100vh - var(--navBarHeight));">
-        <div id="sidebar" class="flexColumn">
-            <span>Breakfast</span>
-            <span>Lunch</span>
-            <span>Dinner</span>
-        </div>
-        <div id="main" class="flexRow wrap">
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/bagel.jpg" width="100%">
-                <h4>Bagel</h4>
-                <p>Bagel with cream cheese</p>
-            </div>
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/omelet.jpg" width="100%">
-                <h4>Omelet</h4>
-                <p>4 egg omelet with cheese</p>
-            </div>
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/pancakes.jpg" width="100%">
-                <h4>Pancakes</h4>
-                <p>Pancakes with syrup</p>
-            </div>
-        </div>
-    </div>
+    
 </body>
 </html>
